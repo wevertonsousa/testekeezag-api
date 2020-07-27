@@ -1,0 +1,150 @@
+{
+	"info": {
+		"_postman_id": "9df54033-a625-4cda-b6de-86fe0ce017e9",
+		"name": "Test Keezag",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get List",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://keezagtestapi.azurewebsites.net/Users?page=1&pageSize=3",
+					"protocol": "https",
+					"host": [
+						"keezagtestapi",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"Users"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "pageSize",
+							"value": "3"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://keezagtestapi.azurewebsites.net/User/5f1ec866fcb6aa5178a481bb",
+					"protocol": "https",
+					"host": [
+						"keezagtestapi",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"User",
+						"5f1ec866fcb6aa5178a481bb"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"5f1ec866fcb6aa5178a481bb\",\r\n    \"name\": \"Weverton Sousa Santos\",\r\n    \"email\": \"wevertonsantos@gmail.com\",\r\n    \"profiles\": [\r\n        {\r\n            \"type\": 1,\r\n            \"avatar\": \"http://azure.net/profile.jpg\",\r\n            \"documentNumber\": \"35468755831\",\r\n            \"address\": {\r\n                \"zipCode\": \"06436060\",\r\n                \"streetAddress\": \"Rua Cilene\",\r\n                \"number\": \"301\",\r\n                \"district\": \"Pq dos Camargos\",\r\n                \"city\": \"Barueri\",\r\n                \"state\": \"São Paulo\",\r\n                \"federatedUnit\": \"SP\"\r\n            }\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://keezagtestapi.azurewebsites.net/User/5f1ec866fcb6aa5178a481bb",
+					"protocol": "https",
+					"host": [
+						"keezagtestapi",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"User",
+						"5f1ec866fcb6aa5178a481bb"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"5f1ec866fcb6aa5178a481bb\",\r\n    \"name\": \"Weverton Sousa Santos\",\r\n    \"email\": \"wevertonsantos@gmail.com\",\r\n    \"profiles\": [\r\n        {\r\n            \"type\": 1,\r\n            \"avatar\": \"http://azure.net/profile.jpg\",\r\n            \"documentNumber\": \"35468755831\",\r\n            \"address\": {\r\n                \"zipCode\": \"06436060\",\r\n                \"streetAddress\": \"Rua Cilene\",\r\n                \"number\": \"301\",\r\n                \"district\": \"Pq dos Camargos\",\r\n                \"city\": \"Barueri\",\r\n                \"state\": \"São Paulo\",\r\n                \"federatedUnit\": \"SP\"\r\n            }\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://keezagtestapi.azurewebsites.net/User/5f1ec866fcb6aa5178a481bb",
+					"protocol": "https",
+					"host": [
+						"keezagtestapi",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"User",
+						"5f1ec866fcb6aa5178a481bb"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New User",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Weverton Sousa Santos\",\r\n    \"email\": \"wevertonsantos5656@gmail.com\",\r\n    \"profiles\": [\r\n        {\r\n            \"type\": 1,\r\n            \"avatar\": \"http://azure.net/profile.jpg\",\r\n            \"documentNumber\": \"35468755831\",\r\n            \"address\": {\r\n                \"zipCode\": \"06436060\",\r\n                \"streetAddress\": \"Rua Cilene\",\r\n                \"number\": \"301\",\r\n                \"district\": \"Pq dos Camargos\",\r\n                \"city\": \"Barueri\",\r\n                \"state\": \"São Paulo\",\r\n                \"federatedUnit\": \"SP\"\r\n            }\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://keezagtestapi.azurewebsites.net/User",
+					"protocol": "https",
+					"host": [
+						"keezagtestapi",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"User"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
