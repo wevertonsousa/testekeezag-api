@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.87
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Keezag.API", "Keezag.API\Keezag.API.csproj", "{A587EC2A-F230-4E55-884A-D45428BA38AE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Apresentation", "Apresentation", "{7C3FB1C2-7091-4FB3-8E04-5C6FB85C2CB2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Apis", "Apis", "{A1BE6C25-A37E-4159-81CB-EB1ECEC69551}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{B5E9D240-D2FF-4D93-B80E-E5C2F59051DC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Keezag.Domain", "Keezag.Domain\Keezag.Domain.csproj", "{33FF5F73-56EC-403D-90DD-6A7AC7E0C4A3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Keezag.Infrastructure", "Keezag.Infrastructure\Keezag.Infrastructure.csproj", "{A276F03C-C1B8-4F27-A223-8948F4790F84}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{39229E40-D846-4157-A9CE-67B556B0DA86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Keezag.Tests", "Keezag.Tests\Keezag.Tests.csproj", "{944C2502-4A61-4A9F-9F93-1EE65FF621B3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A587EC2A-F230-4E55-884A-D45428BA38AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A587EC2A-F230-4E55-884A-D45428BA38AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A587EC2A-F230-4E55-884A-D45428BA38AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A587EC2A-F230-4E55-884A-D45428BA38AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33FF5F73-56EC-403D-90DD-6A7AC7E0C4A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33FF5F73-56EC-403D-90DD-6A7AC7E0C4A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33FF5F73-56EC-403D-90DD-6A7AC7E0C4A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33FF5F73-56EC-403D-90DD-6A7AC7E0C4A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A276F03C-C1B8-4F27-A223-8948F4790F84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A276F03C-C1B8-4F27-A223-8948F4790F84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A276F03C-C1B8-4F27-A223-8948F4790F84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A276F03C-C1B8-4F27-A223-8948F4790F84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{944C2502-4A61-4A9F-9F93-1EE65FF621B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{944C2502-4A61-4A9F-9F93-1EE65FF621B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{944C2502-4A61-4A9F-9F93-1EE65FF621B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{944C2502-4A61-4A9F-9F93-1EE65FF621B3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A587EC2A-F230-4E55-884A-D45428BA38AE} = {A1BE6C25-A37E-4159-81CB-EB1ECEC69551}
+		{A1BE6C25-A37E-4159-81CB-EB1ECEC69551} = {7C3FB1C2-7091-4FB3-8E04-5C6FB85C2CB2}
+		{33FF5F73-56EC-403D-90DD-6A7AC7E0C4A3} = {B5E9D240-D2FF-4D93-B80E-E5C2F59051DC}
+		{A276F03C-C1B8-4F27-A223-8948F4790F84} = {B5E9D240-D2FF-4D93-B80E-E5C2F59051DC}
+		{944C2502-4A61-4A9F-9F93-1EE65FF621B3} = {39229E40-D846-4157-A9CE-67B556B0DA86}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {80C69B4F-C7E8-4085-9C9A-B6393F1D6970}
+	EndGlobalSection
+EndGlobal
